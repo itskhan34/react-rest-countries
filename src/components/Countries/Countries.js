@@ -12,6 +12,7 @@ const Countries = () => {
     return (
         <div >
             <h1>Hello from countries: {countries.length}</h1>
+            console.log(countries);
             <div className='countries-con'>
                 {
                     countries.map(country => <Country country={country} key={country.cca3}></Country>)
